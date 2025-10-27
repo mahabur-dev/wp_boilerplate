@@ -38,8 +38,6 @@ wp-config.php
 node_modules/
 
 # Environment files
-.env
-.env.*
 !.env.example
 
 # OS files
@@ -47,7 +45,6 @@ node_modules/
 Thumbs.db
 
 # IDE files
-.vscode/
 .idea/
 *.sublime-*
 
@@ -60,3 +57,8 @@ debug.log
 *.map
 /dist/
 /build/
+config.bat
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
